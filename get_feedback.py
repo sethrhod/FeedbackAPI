@@ -1,15 +1,15 @@
 import psycopg2
 
-def get_feedback(uuid):
+def get_feedback(userid):
     conn = psycopg2.connect("dbname=test user=postgres")
     cur = conn.cursor()
-    # cur.execute("SELECT * FROM users WHERE uuid = %s", (uuid,))
-    # rows = cur.fetchall()
-    # print(rows)
-    # for row in rows:
-    #     print("uuid = ", row[0])
-    #     print("sessionid = ", row[1])
-    #     print("feedback = ", row[2], "\n")
-
-    # print("Operation done successfully")
+    cur.execute("SELECT * FROM feedback WHERE userid = %s", (userid))
+    rows = cur.fetchall()
+    for row in rows:
+        {
+            "userid": row[0],
+            "sessionid": row[1],
+            "feedback": row[2]
+        }
     conn.close()
+    return rows
