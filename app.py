@@ -11,7 +11,7 @@ def index():
     return "Hello, World!"
 
 @app.route('/<userid>')
-def feedback():
+def feedback(userid):
     if request.method == 'POST':
         resp = jsonify(submit_feedback(userid, request.form['sessionid'], request.form['feedback']))
         resp.status_code = 201
