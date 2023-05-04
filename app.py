@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from submit_feedback import submit_feedback
 from get_feedback import get_feedback
 from update_feedback import update_feedback
+from delete_feedback import delete_feedback
 from create_DB import create_DB
 import logging
 
@@ -13,7 +14,7 @@ def index():
     return "Hello, World!"
 
 
-@app.route('/<userid>', methods=['POST', 'GET', 'PUT'])
+@app.route('/<userid>', methods=['POST', 'GET', 'PUT', 'DELETE'])
 def feedback(userid):
     if request.method == 'POST':
         create_DB()
@@ -37,11 +38,19 @@ def feedback(userid):
         create_DB()
         data = request.get_json()
         logging.info("PUT request received!", data)
-        resp = update_feedback(userid, data['feedback'])
+        resp = update_feedback(userid, data['sessionid'], data['feedback'], data['original_feedback'])
         resp = jsonify(resp)
         resp.status_code = 200
         return resp
-
+    
+    elif request.method == "DELETE":
+        create_DB()
+        data = request.get_json()
+        logging.info("DELETE request received!", data)
+        resp = delete_feedback(userid, data['sessionid'], data['feedback'])
+        resp = jsonify(resp)
+        resp.status_code = 200
+        return resp
 
 if __name__ == '__main__':
     app.run(debug=True)
