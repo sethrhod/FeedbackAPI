@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "name": "Atlanta Cloud Conference 2023",
+      "date": "2023-03-25T09:00:00",
+      "zip_path": "event_bundles/zips/event_Atlcloudconf.zip"
+    },
+    {
+      "name": "Atlanta Developers Conference 2023",
+      "date": "2023-03-25T09:00:00",
+      "zip_path": "event_bundles/zips/event_Atldevcon.zip"
+    }
+  ]
+}
