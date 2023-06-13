@@ -10,21 +10,23 @@
   "speakerAPI": "https://sessionize.com/api/v2/curiktb3/view/Speakers",
   "sessionAPI": "https://sessionize.com/api/v2/curiktb3/view/Sessions",
   "colors": {
-    "primary": "#86BBD8",
-    "secondary": "#336699",
-    "background": "#F4F4F5",
-    "foreground": "#FCFFF7",
-    "card": "#DFDFE2",
-    "accent": "#C9C9CF",
-    "text": "#000000"
-  },
-  "dark": {
-    "primary": "#86BBD8",
-    "secondary": "#336699",
-    "background": "#000000",
-    "foreground": "#C9C9CF",
-    "card": "#7D7D8C",
-    "accent": "#9E9EA9",
-    "text": "#FFFFFF"
+    "light": {
+      "primary": "#86BBD8",
+      "secondary": "#336699",
+      "background": "#F4F4F5",
+      "foreground": "#FCFFF7",
+      "card": "#DFDFE2",
+      "accent": "#C9C9CF",
+      "text": "#000000"
+    },
+    "dark": {
+      "primary": "#86BBD8",
+      "secondary": "#336699",
+      "background": "#000000",
+      "foreground": "#C9C9CF",
+      "card": "#7D7D8C",
+      "accent": "#9E9EA9",
+      "text": "#FFFFFF"
+    }
   }
 }
