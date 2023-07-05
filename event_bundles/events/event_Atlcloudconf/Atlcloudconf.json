@@ -22,9 +22,9 @@
     "dark": {
       "primary": "#86BBD8",
       "secondary": "#336699",
-      "background": "#000000",
+      "background": "#121212",
       "foreground": "#C9C9CF",
-      "card": "#7D7D8C",
+      "card": "#2c2c2c",
       "accent": "#9E9EA9",
       "text": "#FFFFFF"
     }

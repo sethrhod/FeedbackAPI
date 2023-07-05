@@ -7,8 +7,8 @@
   "description": "Atlanta Developers Conference is a one-day, single-track conference for developers and designers in the Atlanta area. The conference will be held on March 25, 2023 at the Georgia Tech Hotel and Conference Center.",
   "logo": "/images/logo/atldevcon-logo-Sunset-ROUND.png",
   "registration": "https://www.eventbrite.com/e/atlanta-cloud-conference-2023-registration-445303012297",
-  "speakerAPI": "https://sessionize.com/api/v2/curiktb3/view/Speakers",
-  "sessionAPI": "https://sessionize.com/api/v2/curiktb3/view/Sessions",
+  "speakerAPI": "https://sessionize.com/api/v2/b634yqxt/view/Speakers",
+  "sessionAPI": "https://sessionize.com/api/v2/b634yqxt/view/Sessions",
   "colors": {
     "light": {
       "primary": "#D68C45",
@@ -22,9 +22,9 @@
     "dark": {
       "primary": "#D68C45",
       "secondary": "#595661",
-      "background": "#000000",
+      "background": "#121212",
       "foreground": "#C9C9CF",
-      "card": "#7D7D8C",
+      "card": "#2c2c2c",
       "accent": "#9E9EA9",
       "text": "#FFFFFF"
     }
