@@ -9,6 +9,7 @@
   "registration": "https://www.eventbrite.com/e/atlanta-cloud-conference-2023-registration-445303012297",
   "speakerAPI": "https://sessionize.com/api/v2/curiktb3/view/Speakers",
   "sessionAPI": "https://sessionize.com/api/v2/curiktb3/view/Sessions",
+  "sponsorsAPI": "https://atlcloudconf.com/sponsors.json",
   "colors": {
     "light": {
       "primary": "#86BBD8",
@@ -25,7 +26,7 @@
       "background": "#121212",
       "foreground": "#C9C9CF",
       "card": "#2c2c2c",
-      "accent": "#9E9EA9",
+      "accent": "#4D4D56",
       "text": "#FFFFFF"
     }
   }
