@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_file
+from flask import Flask, request, jsonify, send_file, redirect
 from submit_feedback import submit_feedback
 from get_feedback import get_feedback
 from update_feedback import update_feedback
@@ -84,6 +84,21 @@ def download(zip):
                         "status_code": 404
                         })
         return resp
+
+
+@app.route('/qr_redirect')
+def qr_redirect():
+    user_agent = request.headers.get('User-Agent', '')
+
+    if 'iPhone' in user_agent or 'iPad' in user_agent:
+        # Redirect to the App Store listing for iOS
+        return redirect('https://apps.apple.com/us/app/atc-conferences/id6450556298', code=302)
+    elif 'Android' in user_agent:
+        # Redirect to the Play Store listing for Android
+        return redirect('https://play.google.com/store/apps/details?id=com.qimatatech.atcconferences&hl=en_US&gl=US', code=302)
+    else:
+        # If device not recognized, redirect to a generic page
+        return redirect('https://www.atldevcon.com/', code=302)
 
 
 if __name__ == '__main__':
