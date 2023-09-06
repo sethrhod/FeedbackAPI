@@ -98,7 +98,7 @@ def qr_redirect():
         return redirect('https://play.google.com/store/apps/details?id=com.qimatatech.atcconferences&hl=en_US&gl=US', code=302)
     else:
         # If device not recognized, redirect to a generic page
-        return redirect('https://www.atldevcon.com/', code=302)
+        return redirect('https://www.atldevcon.com/#lgx-mobile-app', code=302)
 
 
 if __name__ == '__main__':
