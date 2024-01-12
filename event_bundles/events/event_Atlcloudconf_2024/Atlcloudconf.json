@@ -1,0 +1,33 @@
+{
+  "id": "curiktb3",
+  "name": "Atlanta Cloud Conference 2024",
+  "date": "2024-03-23T09:00:00",
+  "time": "9:00 AM - 5:00 PM",
+  "location": "Atlanta, GA",
+  "description": "Atlanta Cloud Conference 2023 is an event for cloud computing professionals and enthusiasts.  Join us for a full day of learning and networking.",
+  "logo": "/images/logo/atlcloudconflogo.png",
+  "registration": "https://www.eventbrite.com/e/atlanta-cloud-conference-2024-registration-746428627117?aff=oddtdtcreator",
+  "speakerAPI": "https://sessionize.com/api/v2/benydyvn/view/Speakers",
+  "sessionAPI": "https://sessionize.com/api/v2/benydyvn/view/Sessions",
+  "sponsorsAPI": "https://atlcloudconf.com/sponsors.json",
+  "colors": {
+    "light": {
+      "primary": "#86BBD8",
+      "secondary": "#336699",
+      "background": "#F4F4F5",
+      "foreground": "#FCFFF7",
+      "card": "#DFDFE2",
+      "accent": "#C9C9CF",
+      "text": "#000000"
+    },
+    "dark": {
+      "primary": "#86BBD8",
+      "secondary": "#336699",
+      "background": "#121212",
+      "foreground": "#C9C9CF",
+      "card": "#2c2c2c",
+      "accent": "#4D4D56",
+      "text": "#FFFFFF"
+    }
+  }
+}
