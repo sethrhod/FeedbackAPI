@@ -1,0 +1,33 @@
+{
+  "id": "zjxqjx3p",
+  "name": "Atlanta Developers Conference 2024",
+  "date": "2024-09-09T09:00:00",
+  "time": "9:00 AM - 5:00 PM",
+  "location": "Alpharetta, GA",
+  "description": "Atlanta Developers Conference is a one-day, single-track conference for developers and designers in the Atlanta area.",
+  "logo": "/images/logo/atldevcon-logo-Sunset-ROUND.png",
+  "registration": "https://www.ticketleap.events/tickets/developers-association-georgia/atlanta-developers-conference-2024",
+  "speakerAPI": "https://sessionize.com/api/v2/hxnp5ql5/view/Speakers",
+  "sessionAPI": "https://sessionize.com/api/v2/hxnp5ql5/view/Sessions",
+  "sponsorsAPI": "https://www.atldevcon.com/sponsors.json",
+  "colors": {
+    "light": {
+      "primary": "#D68C45",
+      "secondary": "#595661",
+      "background": "#F4F4F5",
+      "foreground": "#FCFFF7",
+      "card": "#DFDFE2",
+      "accent": "#C9C9CF",
+      "text": "#000000"
+    },
+    "dark": {
+      "primary": "#D68C45",
+      "secondary": "#595661",
+      "background": "#121212",
+      "foreground": "#C9C9CF",
+      "card": "#2c2c2c",
+      "accent": "#4D4D56",
+      "text": "#FFFFFF"
+    }
+  }
+}

@@ -14,6 +14,11 @@
       "name": "Atlanta Cloud Conference 2024",
       "date": "2024-03-23T09:00:00",
       "zip_path": "event_bundles/zips/event_Atlcloudconf_2024.zip"
+    },
+    {
+      "name": "Atlanta Developers Conference 2024",
+      "date": "2024-09-21T09:00:00",
+      "zip_path": "event_bundles/zips/event_Atldevcon_2024.zip"
     }
   ]
 }
